@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    font-family:tahoma;
+}
+.row{
+    max-width:1140px;
+    margin:0 auto;
+}
+.hello{
+    position:absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/image5.jpg);
+    height:100vh;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+h1{font-weight: bold;
+    color:aqua;
+}
+
+.btn{
+    border:1px solid #e67e22;
+    padding:10px 30px;
+    color:#e67e22;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-right: 25px;
+}
+.button{
+    margin-top: 50px;
+}
+.btn1{
+    background-color: #e67e22;
+    color:white;
+}
+.copy{
+    width: 70%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+h3:after{
+    width: 100px;
+    height: 2px;
+    background-color:#e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.features h3{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.vehicle-showcase{
+    list-style: none;
+    width: 100%;
+}
+.vehicle-showcase li{
+    display: block;
+    width:32%;
+    float: left;
+}
+.vehicle-photo{
+    width: 100%;
+    margin: 0;
+    overflow:hidden;
+   
+}
+.vehicle-photo img{
+   min-width: 500px;
+    max-width: 320px;
+   // height: auto;
+    max-height: 320px;
+    min-height: 320px;
+   margin-right: 200px;
+   //padding-right: 10px;
+  
+    padding-left: 55px;
+   
+}
+.vehicle-photo img:hover{
+    transform: scale(1.15);
+    transition: all 0.5s;
+}
+.vehicle{
+    margin-top:60px;
+}
+.btn-block{
+    background-color: #e67e22;
+    color:white;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+h4{
+    font-weight: bold;
+    color:aquamarine;
+}
+.demo1{
+    font-weight: bold;
+
+}
+.hello p{
+    font-weight: bold;
+    color:aquamarine;
+}
